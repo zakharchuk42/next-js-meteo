@@ -1,0 +1,13 @@
+.customInput {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 12px;
+
+    &:hover {
+        background: #bebebe;
+    }
+}

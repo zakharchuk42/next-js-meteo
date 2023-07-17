@@ -1,0 +1,42 @@
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    &__body {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    &__value {
+        border-bottom: 2px solid var(--color-grey);
+        border-bottom-style: dashed;
+        margin-left: 32px;
+        position: relative;
+
+        &_number {
+            color: var(--color-light-grey);
+            position: absolute;
+            left: -30px;
+            transform: translate(0, -50%);
+        }
+    }
+
+    &__bodyWrapper {
+
+    }
+
+    &__chart {
+
+    }
+
+    &__footer {
+        position: relative;
+        padding: 10px 20px 0 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

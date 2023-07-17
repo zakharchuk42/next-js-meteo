@@ -1,0 +1,8 @@
+.main {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 15px;
+    display: grid;
+    align-items: center;
+}

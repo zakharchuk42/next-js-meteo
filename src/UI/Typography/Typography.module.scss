@@ -1,0 +1,46 @@
+.typography {
+
+    &__color {
+        &_white {
+            color: var(--color-white)
+        }
+
+        &_black {
+            color: var(--color-black)
+        }
+
+        &_green {
+            color: var(--color-green)
+        }
+
+        &_grey {
+            color: var(--color-grey)
+        }
+    }
+
+    &__variant {
+        &_h1 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        &_h2 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &_h3 {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        &_p {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        &_b {
+            font-weight: 700;
+        }
+    }
+}

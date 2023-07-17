@@ -1,0 +1,56 @@
+.table {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-grey);
+    overflow-y: scroll;
+    flex: 1 1;
+
+    &__header {
+        background: var(--color-black);
+        padding: 10px 20px;
+        border-right: 1px solid var(--color-grey);
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    &__row {
+        transition: all .3s ease;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-green);
+        }
+
+        td {
+            text-align: right;
+            padding: 10px 16px;
+
+            &:first-child {
+                text-align: left;
+            }
+        }
+
+        &_even {
+            td {
+                background: var(--color-grey);
+            }
+        }
+
+        &_empty {
+            text-align: center;
+            height: 150px;
+        }
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 0;
+    }
+
+    th {
+        &:first-child {
+            width: 150px;
+        }
+    }
+}

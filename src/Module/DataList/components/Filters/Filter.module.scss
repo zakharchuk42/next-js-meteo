@@ -1,0 +1,12 @@
+.filter {
+    display: flex;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__inputs {
+        display: flex;
+        gap: 8px;
+
+    }
+}

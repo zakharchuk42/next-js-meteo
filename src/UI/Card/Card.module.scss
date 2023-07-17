@@ -1,0 +1,19 @@
+.cardWrapper {
+    display: flex;
+    background: var(--color-dark-grey);
+    padding: 25px 16px;
+    border-radius: var(--border-radius);
+    flex: 1 1;
+
+    &__flex{
+        display: flex;
+
+        &_row {
+            flex-direction: row;
+        }
+
+        &_column {
+            flex-direction: column;
+        }
+    }
+}

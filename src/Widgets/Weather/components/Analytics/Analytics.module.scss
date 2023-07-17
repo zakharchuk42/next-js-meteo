@@ -1,0 +1,28 @@
+.analytics {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 1 auto;
+        padding-bottom: 30px;
+    }
+
+    &__valuesName {
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: -17px;
+            top: 3px;
+            width: 10px;
+            height: 10px;
+            background: var(--color-green);
+            border-radius: 2px;
+        }
+    }
+
+}
